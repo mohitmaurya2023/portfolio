@@ -77,46 +77,22 @@
             width: 50%;
             height: 600px;
             float: left;
-            position: relative;
-            animation-name: col2;
-            animation-duration: 4s;
-            background-image: linear-gradient(cyan,black,green,white);
             border-radius:30px;
         }
-    
-        @keyframes col2 {
-          0%   {background-color:red; left:0px; top:0px;}
-          25%  {background-color:yellow; left:200px; top:0px;}
-          50%  {background-color:blue; left:200px; top:200px;}
-          75%  {background-color:green; left:0px; top:200px;}
-          100% {background-color:red; left:0px; top:0px;}
-}
+        .row5-col2-row1{
+            width: 50%;
+            height: 600px;
+            float: left;
+            border-radius:30px;
+            background-image: gradient(red,cyan,orange,rebeccapurple);
+        }
         .row5-col3{
             width: 25%;
             height: 600px;
             float: left;
             background-image: gradient(red,cyan,orange,rebeccapurple);            
         }
-        .div1 {
-  width: 100%;
-  height: 400px;
-  background: red;
-  transition: width 2s, height 2s, transform 2s;
-}
 
-div1:hover {
-  width: 300px;
-  height: 300px;
-  transform: rotate(180deg);
-}
-        .row6-footer{
-            width: 100%;
-            height: 50px;
-            text-align: center;
-            font-size: 20px;
-
-        }
-       
     </style>
     </head>
 <body>
@@ -143,16 +119,15 @@ div1:hover {
             </div>
             <div class="row5-col2">
                 <center><input type="button" onclick="alert('Please click resume button to see my resume profile');" value="click"></button> </center>
-           </div>
+           <div class="row5-col2-row1">
+            &copy; &reg;&nbsp;&nbsp;<img src="phone.jpg" width="30px" height="20px">: +919310483653&nbsp;&nbsp;<img src="mail.jpg" width="30px" height="20px">:mohitsscs1980@gmail.com
+            </div>
+
+        </div>
             <div class="row5-col3">
-                <div class="div1">
-                    <img src="mohit1.jpg" width="100%" height="250px"/></div>
+                    <img src="mohit1.jpg" width="100%" height="250px"/>
                 <img src="iti1.jpg" width="100%" height="250px"/>
             </div>
-       </div>
-       <div class="row6-footer">
-            &copy; &reg;&nbsp;&nbsp;<img src="phone.jpg" width="30px" height="20px">: +919310483653&nbsp;&nbsp;<img src="mail.jpg" width="30px" height="20px">:mohitsscs1980@gmail.com
-        </div>
-    </div>
+      </div>
 </body>
 </html>
