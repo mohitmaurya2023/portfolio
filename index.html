@@ -71,7 +71,8 @@
             float: left;
             background-image: repeating-linear-gradient(red,blue,yellow);
             text-shadow: 10px 9px 8px cyan;
-            color:orange
+            color:orange;
+            text-decoration:none;
         }
         .row5-col2{
             width: 50%;
@@ -84,8 +85,15 @@
             height: 150px;
             float: left;
             border-radius:30px;
-            background-image: gradient(red,cyan,orange,rebeccapurple);
+            background-image: linear-gradient(red,cyan,orange,rebeccapurple);
+            animation-name:mohit;
+            animation-duration:10s;
         }
+
+@keyframes mohit {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
         .row5-col3{
             width: 25%;
             height: 500px;
